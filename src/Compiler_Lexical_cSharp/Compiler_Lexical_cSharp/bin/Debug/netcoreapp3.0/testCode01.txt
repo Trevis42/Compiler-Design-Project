@@ -1,0 +1,17 @@
+CLASS MathsAndStuff{
+
+    CONST M = 7, N = 85;
+	Var X, Y, Z, Q, R;
+	IF M == N THEN X = 0;
+	
+	IF M < N THEN {
+		X = N - M;
+		M = M + X;
+	}
+	
+	IF N < M THEN {
+		X = M - N;
+		N = N + X;
+	}
+	
+}
